@@ -1,0 +1,83 @@
+@import './reset.css';
+
+.root-wrap{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+}
+
+/*header 부분*/
+.header-container{
+    background-color: rgb(3, 37, 65, 1);
+}
+
+.header-wrap{
+    height:64px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-left-wrap ul{
+    display: flex;
+    margin-left: 15px;
+
+}
+
+.header-left-wrap li{
+    margin-right:15px;
+    padding:8px;
+}
+
+.header-nav-item{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.page-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 0;
+
+}
+
+/*movies페이지*/
+
+.movie-container{
+    width:250px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(27, 5, 93);
+    color: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.127);
+    
+}
+
+.movie-container img{
+    max-width: 100%;
+    
+}
+
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-info{
+    display:flex;
+    padding:20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-info h4{
+    margin:0;
+}
+
+.movie-info span{
+    margin-left: 3px;
+}
